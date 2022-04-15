@@ -1,2 +1,1 @@
-# codeforces
-# Shakib H.
+# codeforces - Shakib H.
