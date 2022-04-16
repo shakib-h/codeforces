@@ -35,12 +35,13 @@ int main()
         for (j = 0; j < 5; j++)
         {
             scanf("%d", &b);
-            if (b==1){
-                printf("%d\n", abs(i - 2)+abs(j - 2));
+            if (b == 1)
+            {
+                printf("%d\n", abs(i - 2) + abs(j - 2));
                 break;
             }
         }
     }
-    
+
     return 0;
 }
