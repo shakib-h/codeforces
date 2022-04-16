@@ -1,2 +1,1 @@
-# codeforces
-# Shakib H.
+# Codeforces Solutions in C
