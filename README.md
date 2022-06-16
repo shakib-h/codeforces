@@ -1,1 +1,1 @@
-# Codeforces Solutions in C
+# Codeforces Solutions in C/C++
