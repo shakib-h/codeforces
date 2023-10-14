@@ -2,14 +2,24 @@
 using namespace std;
 int main()
 {
-    long n, k, c = 2;
-    bool even = false;
+    long long n, k, mid, nice;
     cin >> n >> k;
-    while (k--)
+    if (n % 2 == 0)
     {
-        for (int i = 1; i < n * 2; i++)
-        {
-            /* code */
-        }
+        mid = n / 2;
     }
+    else
+    {
+        mid = (n / 2) + 1;
+    }
+    if (k <= mid)
+    {
+        nice = (k * 2) - 1;
+    }
+    else
+    {
+        nice = (k - mid) * 2;
+    }
+    cout << nice << endl;
+    return 0;
 }
